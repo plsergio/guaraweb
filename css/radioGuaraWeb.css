@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+	font-size: 1em;
+}
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+	font-size: 1em;
+}
+#conteudoPagina{
+	margin-top: 54px;
+}
+.titulo{
+  font-family: 'OpenSans';
+  text-align: center;
+  color: #0095DA;
+	margin-top: 40px;
+  border-bottom-style: solid;
+  border-bottom-color: #F4CB0E;
+}
+.subTitulo{
+  font-family: 'OpenSans';
+  text-align: center;
+  color: #0095DA;
+	margin-top: 40px;
+  /*border-bottom-style: solid;*/
+  /*border-bottom-color: #F4CB0E;*/
+}

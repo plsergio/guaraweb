@@ -1,0 +1,65 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+	font-size: 1em;
+}
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+	font-size: 1em;
+}
+.rodape{
+  background-color: #0A4F6F;
+  height: 248px;
+  margin-top: 25px;
+  color: white;
+  font-family: 'OpenSans';
+}
+#logoRodape{
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  background-size: 82%;
+  margin-top: 44px;
+  height: 159px;
+}
+.titulosRodape{
+  margin-top: 22px;
+  border-bottom-style: solid;
+  border-bottom-width: 0.1px;
+}
+.todosLinksRodape{
+  margin-top: 8px;
+}
+.todosLinksRodape a{
+  text-decoration: none;
+  padding: 2px;
+  color: #fff;
+}
+/*links não visitados*/
+.todosLinksRodape a, a:active, a:link, a:visited{
+  color: #fff;
+}
+.todosLinksRodape a:link, a:visited{
+  color: #fff;
+}
+#megaFone{
+  background-image: url("../img/megafone.png");
+  background-repeat: no-repeat;
+  background-size: 78%;
+  margin-top: 9px;
+  height: 217px;
+}
+.iconesSiganos i{
+  font-size: 187%;
+  padding-right: 10%;
+  padding-top: 6px;
+}
+.copyright{
+  background-color: #052737;
+  height: 30px;
+}
+.copyright p{
+  color: white;
+  text-align: center;
+  padding: 5px;
+}

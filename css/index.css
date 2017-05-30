@@ -1,0 +1,180 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+	font-size: 1em;
+}
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+	font-size: 1em;
+}
+/*Tamanho de pc*/
+@media only screen and (min-width: 2001px) {
+  .carousel-inner{
+    /*max-height: 100% !important;*/
+    /*max-height: 810px !important;*/
+  }
+  .carousel {
+      height: 897px;
+  }
+  #propaganda1{
+    /*height: 140px;*/
+  }
+}
+@media only screen and (max-width: 2000px) and (min-width: 1025px) {
+  .carousel-inner{
+    /*max-height: 575px !important;*/
+  }
+  .carousel {
+      height: 650px;
+  }
+  #propaganda1{
+    /*height: 115px;*/
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .carousel-inner{
+    /*max-height: 575px !important;*/
+  }
+  .carousel {
+      height: 575px;
+  }
+  #propaganda1{
+    /*height: 106px;*/
+  }
+}
+/*Tamanho para tablet*/
+@media only screen and (max-width: 768px) and (min-width: 481px){
+  .carousel {
+      height: 432px;
+  }
+  .carousel-inner{
+    /*max-height: 431px !important;*/
+  }
+  #propaganda1{
+    /*height: 86px;*/
+  }
+}
+/*Tamanho até smartphones grande*/
+@media only screen and (max-width: 480px) and (min-width: 376px) {
+  .carousel {
+    height: 240px;
+  }
+  .carousel-inner {
+    /*max-height: 245px !important;*/
+  }
+  #propaganda1{
+    /*height: 46px;*/
+  }
+}
+/*Tamanho até smartphones médios: ;*/
+@media only screen and (max-width: 375px) and (min-width: 321px){
+  .carousel-inner {
+    /*max-height: 245px !important;*/
+  }
+  .carousel {
+    height: 212px;
+  }
+  #propaganda1{
+    /*height: 31px;*/
+  }
+}
+
+/*Tamanho até smartphones pequenos: ;*/
+@media only screen and (max-width: 320px) and (min-width: 20px){
+  .carousel-inner {
+    /*max-height: 210px !important;*/
+  }
+  .carousel {
+      height: 181px;
+  }
+  #propaganda1{
+    /*height: 28px;*/
+  }
+}
+.imgDestaque{
+  width: 100%;
+	height: 100% !important;
+}
+.carousel-inner {
+	position: absolute;
+}
+.carousel-caption{
+  top: 184px;
+}
+/*#propaganda1{
+  background-image: url("../img/propaganda1.jpg");
+  background-repeat: no-repeat;
+	background-size: 69%;
+  background-position-x: 50%;
+  position: relative;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}*/
+.propaganda{
+  margin: 30 auto;
+}
+.propagandaModal{
+	margin: 0 auto;
+	height: 30%;
+}
+/*************** últimos eventos **********************/
+#owl-demo .item{
+  margin: 3px;
+  /*height: 160px;*/
+}
+#owl-demo .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    height: 160px;
+}
+#owl-demo .tituloEvento{
+  text-align: center;
+  color: #2A2E76;
+  padding: 0px 10px;
+  font-family: 'OpenSans';
+}
+#owl-demo .chamadaEvento{
+  text-align: justify;
+  padding: 0 13px;
+  font-family: 'OpenSans';
+  color: black;
+}
+#myModalLabel{
+  text-align: center;
+  color: #2A2E76;
+  /*padding: 0px 10px;*/
+  font-family: 'OpenSans';
+}
+#imgModal{
+  width: 100%;
+}
+#chamadaModal{
+	/*text-indent: 40px;*/
+	line-height: 22px;
+  text-align: justify;
+	margin: 10px auto;
+  padding: 0 13px;
+  font-family: 'OpenSans';
+  color: black;
+}
+/***************** fim últimos eventos ******************/
+/******************* galeria ******************/
+#owl-galeria .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    /*height: 160px;*/
+    margin: 9px;
+    padding: 0 10px;
+}
+.video-thumb span img{
+	display: block;
+	width: 100%;
+	height: auto;
+	height: 160px;
+	margin: 9px;
+	padding: 0 10px;
+}
+/**************** fim galeria *******************/
